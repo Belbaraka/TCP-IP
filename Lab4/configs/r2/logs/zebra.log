@@ -1,0 +1,1499 @@
+2017/11/14 11:19:27 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:12::2/64 on r2-eth1
+2017/11/14 11:19:27 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.23.2/24 on r2-eth2
+2017/11/14 11:19:27 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:23::2/64 on r2-eth2
+2017/11/14 11:19:27 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.25.2/24 on r2-eth3
+2017/11/14 11:19:27 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:25::2/64 on r2-eth3
+2017/11/14 11:19:27 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.22.2/24 on r2-eth4
+2017/11/14 11:19:27 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:22::2/64 on r2-eth4
+2017/11/14 11:19:27 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/11/14 19:23:49 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:12::2/64 on r2-eth1
+2017/11/14 19:23:49 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.23.2/24 on r2-eth2
+2017/11/14 19:23:49 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:23::2/64 on r2-eth2
+2017/11/14 19:23:49 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.25.2/24 on r2-eth3
+2017/11/14 19:23:49 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:25::2/64 on r2-eth3
+2017/11/14 19:23:49 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.22.2/24 on r2-eth4
+2017/11/14 19:23:49 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:22::2/64 on r2-eth4
+2017/11/14 19:23:49 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/11/14 19:23:49 ZEBRA: zebra message comes from socket [16]
+2017/11/14 19:23:49 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/14 19:23:49 ZEBRA: client 16 says hello and bids fair to announce only ospf routes
+2017/11/14 19:23:49 ZEBRA: zebra message comes from socket [16]
+2017/11/14 19:23:49 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/14 19:23:49 ZEBRA: zebra message comes from socket [16]
+2017/11/14 19:23:49 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/14 19:23:49 ZEBRA: zebra message comes from socket [17]
+2017/11/14 19:23:49 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/14 19:23:49 ZEBRA: client 17 says hello and bids fair to announce only ospf6 routes
+2017/11/14 19:23:49 ZEBRA: zebra message comes from socket [17]
+2017/11/14 19:23:49 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/14 19:23:49 ZEBRA: zebra message comes from socket [17]
+2017/11/14 19:23:49 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/14 19:23:49 ZEBRA: zebra message comes from socket [16]
+2017/11/14 19:23:49 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/14 19:23:49 ZEBRA: zebra message comes from socket [16]
+2017/11/14 19:23:49 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/14 19:23:49 ZEBRA: zebra message comes from socket [16]
+2017/11/14 19:23:49 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/14 19:23:49 ZEBRA: zebra message comes from socket [16]
+2017/11/14 19:23:49 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/14 19:24:44 ZEBRA: zebra message comes from socket [17]
+2017/11/14 19:24:44 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/14 19:24:44 ZEBRA: zebra message comes from socket [17]
+2017/11/14 19:24:44 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/14 19:24:44 ZEBRA: zebra message comes from socket [17]
+2017/11/14 19:24:44 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/14 19:24:44 ZEBRA: zebra message comes from socket [17]
+2017/11/14 19:24:44 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/14 19:24:44 ZEBRA: zebra message comes from socket [17]
+2017/11/14 19:24:44 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/14 19:24:44 ZEBRA: zebra message comes from socket [17]
+2017/11/14 19:24:44 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/14 19:24:49 ZEBRA: zebra message comes from socket [17]
+2017/11/14 19:24:49 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/14 19:24:49 ZEBRA: zebra message comes from socket [17]
+2017/11/14 19:24:49 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/14 19:24:49 ZEBRA: zebra message comes from socket [17]
+2017/11/14 19:24:49 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/14 19:24:49 ZEBRA: zebra message comes from socket [17]
+2017/11/14 19:24:49 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/14 19:24:54 ZEBRA: zebra message comes from socket [16]
+2017/11/14 19:24:54 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/14 19:44:17 ZEBRA: Vty connection from 127.0.0.1
+2017/11/14 21:10:51 ZEBRA: zebra message comes from socket [16]
+2017/11/14 21:10:51 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/14 21:10:51 ZEBRA: zebra message comes from socket [16]
+2017/11/14 21:10:51 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/14 21:10:51 ZEBRA: zebra message comes from socket [16]
+2017/11/14 21:10:51 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/14 21:10:51 ZEBRA: zebra message comes from socket [16]
+2017/11/14 21:10:51 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/14 21:10:51 ZEBRA: zebra message comes from socket [16]
+2017/11/14 21:10:51 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/14 21:10:51 ZEBRA: connection closed socket [16]
+2017/11/14 21:10:51 ZEBRA: client 16 disconnected. 0 ospf routes removed from the rib
+2017/11/14 21:10:53 ZEBRA: zebra message comes from socket [17]
+2017/11/14 21:10:53 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/14 21:10:53 ZEBRA: zebra message comes from socket [17]
+2017/11/14 21:10:53 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/14 21:10:53 ZEBRA: zebra message comes from socket [17]
+2017/11/14 21:10:53 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/14 21:10:53 ZEBRA: zebra message comes from socket [17]
+2017/11/14 21:10:53 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/14 21:10:53 ZEBRA: zebra message comes from socket [17]
+2017/11/14 21:10:53 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/14 21:10:53 ZEBRA: zebra message comes from socket [17]
+2017/11/14 21:10:53 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/14 21:10:53 ZEBRA: connection closed socket [17]
+2017/11/14 21:10:53 ZEBRA: client 17 disconnected. 0 ospf6 routes removed from the rib
+2017/11/14 21:10:55 ZEBRA: Terminating on signal
+2017/11/14 21:10:55 ZEBRA: IRDP: Received shutdown notification.
+2017/11/15 15:09:15 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/11/15 15:09:15 ZEBRA: zebra message comes from socket [16]
+2017/11/15 15:09:15 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/15 15:09:15 ZEBRA: client 16 says hello and bids fair to announce only ospf routes
+2017/11/15 15:09:15 ZEBRA: zebra message comes from socket [16]
+2017/11/15 15:09:15 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/15 15:09:15 ZEBRA: zebra message comes from socket [16]
+2017/11/15 15:09:15 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/15 15:09:15 ZEBRA: zebra message comes from socket [17]
+2017/11/15 15:09:15 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/15 15:09:15 ZEBRA: client 17 says hello and bids fair to announce only ospf6 routes
+2017/11/15 15:09:15 ZEBRA: zebra message comes from socket [17]
+2017/11/15 15:09:15 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/15 15:09:15 ZEBRA: zebra message comes from socket [17]
+2017/11/15 15:09:15 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/15 15:09:15 ZEBRA: zebra message comes from socket [16]
+2017/11/15 15:09:15 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/15 15:09:15 ZEBRA: zebra message comes from socket [16]
+2017/11/15 15:09:15 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/15 15:09:15 ZEBRA: zebra message comes from socket [16]
+2017/11/15 15:09:15 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/15 15:09:15 ZEBRA: zebra message comes from socket [16]
+2017/11/15 15:09:15 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/15 15:09:55 ZEBRA: zebra message comes from socket [17]
+2017/11/15 15:09:55 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 15:09:55 ZEBRA: zebra message comes from socket [17]
+2017/11/15 15:09:55 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 15:09:55 ZEBRA: zebra message comes from socket [17]
+2017/11/15 15:09:55 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 15:09:55 ZEBRA: zebra message comes from socket [17]
+2017/11/15 15:09:55 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 15:09:55 ZEBRA: zebra message comes from socket [17]
+2017/11/15 15:09:55 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 15:09:55 ZEBRA: zebra message comes from socket [17]
+2017/11/15 15:09:55 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 15:10:00 ZEBRA: zebra message comes from socket [17]
+2017/11/15 15:10:00 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 15:10:00 ZEBRA: zebra message comes from socket [17]
+2017/11/15 15:10:00 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 15:10:00 ZEBRA: zebra message comes from socket [17]
+2017/11/15 15:10:00 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 15:10:00 ZEBRA: zebra message comes from socket [17]
+2017/11/15 15:10:00 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 15:10:05 ZEBRA: zebra message comes from socket [16]
+2017/11/15 15:10:05 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/15 17:30:38 ZEBRA: zebra message comes from socket [16]
+2017/11/15 17:30:38 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/15 17:30:38 ZEBRA: zebra message comes from socket [16]
+2017/11/15 17:30:38 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/15 17:30:38 ZEBRA: zebra message comes from socket [16]
+2017/11/15 17:30:38 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/15 17:30:38 ZEBRA: zebra message comes from socket [16]
+2017/11/15 17:30:38 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/15 17:30:38 ZEBRA: zebra message comes from socket [16]
+2017/11/15 17:30:38 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/15 17:30:38 ZEBRA: connection closed socket [16]
+2017/11/15 17:30:38 ZEBRA: client 16 disconnected. 0 ospf routes removed from the rib
+2017/11/15 17:30:40 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:30:40 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 17:30:40 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:30:40 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 17:30:40 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:30:40 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 17:30:40 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:30:40 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 17:30:40 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:30:40 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 17:30:40 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:30:40 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 17:30:40 ZEBRA: connection closed socket [17]
+2017/11/15 17:30:40 ZEBRA: client 17 disconnected. 0 ospf6 routes removed from the rib
+2017/11/15 17:30:42 ZEBRA: Terminating on signal
+2017/11/15 17:30:42 ZEBRA: IRDP: Received shutdown notification.
+2017/11/15 17:43:47 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/11/15 17:43:47 ZEBRA: zebra message comes from socket [16]
+2017/11/15 17:43:47 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/15 17:43:47 ZEBRA: client 16 says hello and bids fair to announce only ospf routes
+2017/11/15 17:43:47 ZEBRA: zebra message comes from socket [16]
+2017/11/15 17:43:47 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/15 17:43:47 ZEBRA: zebra message comes from socket [16]
+2017/11/15 17:43:47 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/15 17:43:47 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:43:47 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/15 17:43:47 ZEBRA: client 17 says hello and bids fair to announce only ospf6 routes
+2017/11/15 17:43:47 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:43:47 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/15 17:43:47 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:43:47 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/15 17:43:47 ZEBRA: zebra message comes from socket [16]
+2017/11/15 17:43:47 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/15 17:43:47 ZEBRA: zebra message comes from socket [16]
+2017/11/15 17:43:47 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/15 17:43:47 ZEBRA: zebra message comes from socket [16]
+2017/11/15 17:43:47 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/15 17:43:47 ZEBRA: zebra message comes from socket [16]
+2017/11/15 17:43:47 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/15 17:44:27 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 17:44:27 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 17:44:27 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 17:44:27 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 17:44:27 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 17:44:27 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 17:44:27 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 17:44:27 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 17:44:27 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 17:44:27 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 17:44:27 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 17:44:27 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 17:44:32 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:32 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 17:44:32 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:32 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 17:44:32 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:32 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 17:44:32 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:32 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 17:44:32 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:32 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 17:44:32 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:32 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 17:44:32 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:32 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 17:44:32 ZEBRA: zebra message comes from socket [17]
+2017/11/15 17:44:32 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 17:44:37 ZEBRA: zebra message comes from socket [16]
+2017/11/15 17:44:37 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/15 19:11:41 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:12::2/64 on r2-eth1
+2017/11/15 19:11:41 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.23.2/24 on r2-eth2
+2017/11/15 19:11:41 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:23::2/64 on r2-eth2
+2017/11/15 19:11:41 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.25.2/24 on r2-eth3
+2017/11/15 19:11:41 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:25::2/64 on r2-eth3
+2017/11/15 19:11:41 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.22.2/24 on r2-eth4
+2017/11/15 19:11:41 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:22::2/64 on r2-eth4
+2017/11/15 19:11:41 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/11/15 19:11:41 ZEBRA: zebra message comes from socket [16]
+2017/11/15 19:11:41 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/15 19:11:41 ZEBRA: client 16 says hello and bids fair to announce only ospf routes
+2017/11/15 19:11:41 ZEBRA: zebra message comes from socket [16]
+2017/11/15 19:11:41 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/15 19:11:41 ZEBRA: zebra message comes from socket [16]
+2017/11/15 19:11:41 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/15 19:11:41 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:11:41 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/15 19:11:41 ZEBRA: client 17 says hello and bids fair to announce only ospf6 routes
+2017/11/15 19:11:41 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:11:41 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/15 19:11:41 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:11:41 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/15 19:11:41 ZEBRA: zebra message comes from socket [16]
+2017/11/15 19:11:41 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/15 19:11:41 ZEBRA: zebra message comes from socket [16]
+2017/11/15 19:11:41 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/15 19:11:41 ZEBRA: zebra message comes from socket [16]
+2017/11/15 19:11:41 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/15 19:11:41 ZEBRA: zebra message comes from socket [16]
+2017/11/15 19:11:41 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/15 19:12:21 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 19:12:21 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 19:12:21 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 19:12:21 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 19:12:21 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 19:12:21 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 19:12:26 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:26 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 19:12:26 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:26 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 19:12:26 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:26 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 19:12:26 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:26 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 19:12:31 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:31 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 19:12:31 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:31 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 19:12:31 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:31 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 19:12:31 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:31 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 19:12:31 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:31 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 19:12:31 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:31 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 19:12:31 ZEBRA: zebra message comes from socket [16]
+2017/11/15 19:12:31 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/15 19:12:31 ZEBRA: zebra message comes from socket [16]
+2017/11/15 19:12:31 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/15 19:12:45 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:45 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 19:12:45 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:45 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 19:12:45 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:45 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 19:12:45 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:12:45 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 19:49:14 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:49:14 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 19:49:14 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:49:14 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 19:49:14 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:49:14 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 19:49:14 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:49:14 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 19:49:14 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:49:14 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 19:49:16 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:49:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/15 19:49:16 ZEBRA: zebra message comes from socket [17]
+2017/11/15 19:49:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/15 19:49:24 ZEBRA: zebra message comes from socket [16]
+2017/11/15 19:49:24 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 15:34:07 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/11/16 15:34:07 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:34:07 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/16 15:34:07 ZEBRA: client 16 says hello and bids fair to announce only ospf routes
+2017/11/16 15:34:07 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:34:07 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/16 15:34:07 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:34:07 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/16 15:34:07 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:07 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/16 15:34:07 ZEBRA: client 17 says hello and bids fair to announce only ospf6 routes
+2017/11/16 15:34:07 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:07 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/16 15:34:07 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:07 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/16 15:34:08 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:34:08 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:34:08 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:34:08 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:34:08 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:34:08 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:34:08 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:34:08 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:34:57 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:57 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:34:57 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:57 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:34:57 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:57 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:34:57 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:57 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:34:57 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:57 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:34:57 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:57 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:34:57 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:57 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:34:57 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:57 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:34:57 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:57 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:34:57 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:57 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:34:57 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:57 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:34:57 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:57 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:34:58 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:58 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:34:58 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:58 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:34:58 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:58 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:34:58 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:58 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:34:58 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:34:58 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:34:59 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:34:59 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 15:34:59 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:34:59 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 15:35:03 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:03 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:35:03 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:03 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:35:03 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:03 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:35:03 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:03 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:35:03 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:03 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:35:03 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:03 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:35:04 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:35:04 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 63
+2017/11/16 15:35:04 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:35:04 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:35:09 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:35:09 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 15:35:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:35:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:35:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth1
+2017/11/16 15:35:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:35:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 15:35:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::807e:42ff:fe35:13b8/64 on r2-eth1
+2017/11/16 15:35:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.12.2/24 on r2-eth1
+2017/11/16 15:35:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 15:35:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth1
+2017/11/16 15:35:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth2
+2017/11/16 15:35:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:35:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 15:35:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::bc45:99ff:fe16:51cf/64 on r2-eth2
+2017/11/16 15:35:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.23.2/24 on r2-eth2
+2017/11/16 15:35:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 15:35:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth2
+2017/11/16 15:35:13 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:35:13 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 15:35:13 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:35:13 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/16 15:35:13 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:35:13 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 15:35:13 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:35:13 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/16 15:35:13 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:35:13 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 15:35:13 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:13 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:35:13 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth3
+2017/11/16 15:35:13 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 15:35:13 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::b8a2:dbff:fe6c:a432/64 on r2-eth3
+2017/11/16 15:35:13 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:13 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:35:13 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:13 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:35:13 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:13 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:35:13 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.25.2/24 on r2-eth3
+2017/11/16 15:35:13 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 15:35:13 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth3
+2017/11/16 15:35:13 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth4
+2017/11/16 15:35:13 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 15:35:13 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::98a0:f2ff:fe23:9ce6/64 on r2-eth4
+2017/11/16 15:35:13 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.22.2/24 on r2-eth4
+2017/11/16 15:35:13 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 15:35:13 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth4
+2017/11/16 15:35:42 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 15:35:42 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.23.2/24 on r2-eth2
+2017/11/16 15:35:42 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 15:35:42 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.25.2/24 on r2-eth3
+2017/11/16 15:35:42 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 15:35:42 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.22.2/24 on r2-eth4
+2017/11/16 15:35:42 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 15:35:42 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/11/16 15:35:42 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:35:42 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/16 15:35:42 ZEBRA: client 16 says hello and bids fair to announce only ospf routes
+2017/11/16 15:35:42 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:35:42 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/16 15:35:42 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:35:42 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/16 15:35:42 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:42 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/16 15:35:42 ZEBRA: client 17 says hello and bids fair to announce only ospf6 routes
+2017/11/16 15:35:42 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:42 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/16 15:35:42 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:35:42 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/16 15:35:42 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:35:42 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:35:42 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:35:42 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:35:42 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:35:42 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:35:42 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:35:42 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:36:22 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:22 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:22 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:22 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:22 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:22 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:27 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:36:27 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:36:27 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:27 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:32 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:32 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:36:32 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:32 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:36:32 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:32 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:36:32 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:32 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:32 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:32 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:32 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:32 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:32 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:36:32 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 15:36:32 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:36:32 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 15:36:33 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:33 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:36:33 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:33 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:36:33 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:33 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:33 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:33 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:33 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:33 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:38 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:38 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:36:38 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:38 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:36:38 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:38 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:38 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:38 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:38 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:38 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:36:38 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:38 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:43 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:43 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:43 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:43 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 63
+2017/11/16 15:36:43 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:43 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:43 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:36:43 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:36:44 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:36:44 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 15:43:15 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:43:15 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 15:43:15 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:43:15 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/16 15:43:15 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:43:15 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 15:43:15 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:43:15 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/16 15:43:15 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:43:15 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/16 15:43:15 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:43:15 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/16 15:43:15 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:43:15 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 15:43:15 ZEBRA: connection closed socket [16]
+2017/11/16 15:43:15 ZEBRA: client 16 disconnected. 0 ospf routes removed from the rib
+2017/11/16 15:43:17 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:17 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:43:17 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:17 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 63
+2017/11/16 15:43:17 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:17 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:43:17 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:17 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:43:17 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:17 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:43:17 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:17 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:43:17 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:17 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:43:17 ZEBRA: connection closed socket [17]
+2017/11/16 15:43:17 ZEBRA: client 17 disconnected. 0 ospf6 routes removed from the rib
+2017/11/16 15:43:19 ZEBRA: Terminating on signal
+2017/11/16 15:43:19 ZEBRA: IRDP: Received shutdown notification.
+2017/11/16 15:43:23 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/11/16 15:43:23 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:43:23 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/16 15:43:23 ZEBRA: client 16 says hello and bids fair to announce only ospf routes
+2017/11/16 15:43:23 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:43:23 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/16 15:43:23 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:43:23 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/16 15:43:23 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:23 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/16 15:43:23 ZEBRA: client 17 says hello and bids fair to announce only ospf6 routes
+2017/11/16 15:43:23 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:23 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/16 15:43:23 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:23 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/16 15:43:24 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:43:24 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:43:24 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:43:24 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:43:24 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:43:24 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:43:24 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:43:24 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:43:27 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:27 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:27 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:27 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:43:27 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:27 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:27 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:43:27 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:43:27 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:27 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:27 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:43:27 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:27 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:27 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:28 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:28 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:28 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:28 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:28 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:28 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:28 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:28 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:43:28 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:28 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:43:28 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:28 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:43:28 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:28 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:28 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:28 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:28 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:28 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:28 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:28 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:28 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:28 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:28 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:28 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:28 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:28 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:29 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:29 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:43:29 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:29 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:43:29 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:29 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:29 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:29 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:43:32 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:32 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:43:32 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:43:32 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 15:43:32 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:43:32 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 15:43:32 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:43:32 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 15:43:33 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:43:33 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:46:46 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:46:46 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:46:46 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:46:46 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:46:46 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth1
+2017/11/16 15:46:46 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 15:46:46 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::78a4:d9ff:fee7:2a76/64 on r2-eth1
+2017/11/16 15:46:46 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.12.2/24 on r2-eth1
+2017/11/16 15:46:46 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 15:46:46 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth1
+2017/11/16 15:46:46 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth2
+2017/11/16 15:46:46 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:46:46 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:46:46 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 15:46:46 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::5ce2:8eff:fe25:2cc9/64 on r2-eth2
+2017/11/16 15:46:46 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.23.2/24 on r2-eth2
+2017/11/16 15:46:46 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 15:46:46 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth2
+2017/11/16 15:46:46 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:46:46 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:46:47 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:46:47 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 15:46:47 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:46:47 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/16 15:46:47 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:46:47 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 15:46:47 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:46:47 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/16 15:46:47 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:46:47 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 15:46:47 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:46:47 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:46:47 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth3
+2017/11/16 15:46:47 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:46:47 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:46:47 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:46:47 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:46:47 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 15:46:47 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::b0f7:6eff:fe55:4dd6/64 on r2-eth3
+2017/11/16 15:46:47 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:46:47 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:46:47 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.25.2/24 on r2-eth3
+2017/11/16 15:46:47 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 15:46:47 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth3
+2017/11/16 15:46:47 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth4
+2017/11/16 15:46:47 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 15:46:47 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::d823:84ff:fe67:4c5c/64 on r2-eth4
+2017/11/16 15:46:47 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.22.2/24 on r2-eth4
+2017/11/16 15:46:47 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 15:46:47 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth4
+2017/11/16 15:47:14 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 15:47:14 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.23.2/24 on r2-eth2
+2017/11/16 15:47:14 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 15:47:14 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.25.2/24 on r2-eth3
+2017/11/16 15:47:14 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 15:47:14 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.22.2/24 on r2-eth4
+2017/11/16 15:47:14 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 15:47:14 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/11/16 15:47:14 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:47:14 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/16 15:47:14 ZEBRA: client 16 says hello and bids fair to announce only ospf routes
+2017/11/16 15:47:14 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:47:14 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/16 15:47:14 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:47:14 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/16 15:47:14 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:14 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/16 15:47:14 ZEBRA: client 17 says hello and bids fair to announce only ospf6 routes
+2017/11/16 15:47:14 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:14 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/16 15:47:14 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:14 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/16 15:47:15 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:47:15 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:47:15 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:47:15 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:47:15 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:47:15 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:47:15 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:47:15 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:47:54 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:54 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:47:54 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:54 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:47:54 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:54 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:47:54 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:54 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:47:58 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:58 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:47:58 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:58 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:47:58 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:58 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:47:58 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:58 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:47:58 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:58 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:47:58 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:58 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:47:58 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:58 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:47:58 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:58 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:47:58 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:58 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:47:58 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:58 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:47:59 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:59 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:47:59 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:59 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:47:59 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:59 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:47:59 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:59 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:47:59 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:47:59 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:48:03 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:48:03 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:48:03 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:48:03 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:48:03 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:48:03 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:48:03 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:48:03 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:48:03 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:48:03 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:48:03 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:48:03 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 15:48:03 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:48:03 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 15:48:04 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:48:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:48:04 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:48:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:48:13 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:48:13 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 15:57:01 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:57:01 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:57:01 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth1
+2017/11/16 15:57:01 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:57:01 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:57:01 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 15:57:01 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::d464:4eff:fe4d:e640/64 on r2-eth1
+2017/11/16 15:57:01 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.12.2/24 on r2-eth1
+2017/11/16 15:57:01 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 15:57:01 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth1
+2017/11/16 15:57:01 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:57:01 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 15:57:01 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:57:01 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/16 15:57:01 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:57:01 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 15:57:01 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:57:01 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 15:57:01 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth2
+2017/11/16 15:57:01 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:57:01 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:57:01 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 15:57:01 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::484f:60ff:fe2c:69e3/64 on r2-eth2
+2017/11/16 15:57:01 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.23.2/24 on r2-eth2
+2017/11/16 15:57:01 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 15:57:01 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth2
+2017/11/16 15:57:02 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:57:02 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:57:02 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth3
+2017/11/16 15:57:02 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 15:57:02 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::e8a9:1bff:fe28:7d63/64 on r2-eth3
+2017/11/16 15:57:02 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:57:02 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:57:02 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:57:02 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:57:02 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:57:02 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:57:02 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.25.2/24 on r2-eth3
+2017/11/16 15:57:02 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 15:57:02 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth3
+2017/11/16 15:57:02 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth4
+2017/11/16 15:57:02 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 15:57:02 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::1436:84ff:feb9:db24/64 on r2-eth4
+2017/11/16 15:57:02 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.22.2/24 on r2-eth4
+2017/11/16 15:57:02 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 15:57:02 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth4
+2017/11/16 15:57:21 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 15:57:21 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.23.2/24 on r2-eth2
+2017/11/16 15:57:21 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 15:57:21 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.25.2/24 on r2-eth3
+2017/11/16 15:57:21 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 15:57:21 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.22.2/24 on r2-eth4
+2017/11/16 15:57:21 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 15:57:21 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/11/16 15:57:21 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:57:21 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/16 15:57:21 ZEBRA: client 16 says hello and bids fair to announce only ospf routes
+2017/11/16 15:57:21 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:57:21 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/16 15:57:21 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:57:21 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/16 15:57:21 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:57:21 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/16 15:57:21 ZEBRA: client 17 says hello and bids fair to announce only ospf6 routes
+2017/11/16 15:57:21 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:57:21 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/16 15:57:21 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:57:21 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/16 15:57:21 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:57:21 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:57:21 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:57:21 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:57:21 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:57:21 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:57:21 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:57:21 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:58:01 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:01 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:58:01 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:01 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:58:01 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:01 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:58:01 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:01 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:58:01 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:01 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:58:01 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:01 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:58:06 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:06 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:58:06 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:06 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:58:06 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:06 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:58:06 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:06 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:58:06 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:06 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:58:06 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:06 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:58:06 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:06 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:58:06 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:06 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:58:06 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:06 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:58:06 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:06 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:58:06 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:06 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:58:06 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:58:06 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 15:58:06 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:58:06 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 15:58:10 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:10 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:58:10 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:10 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:58:10 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:10 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:58:10 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:10 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:58:11 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:11 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:58:11 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:11 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:58:11 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:11 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:58:11 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:11 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:58:11 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:11 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:58:11 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:58:11 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:58:16 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:58:16 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 15:59:36 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:59:36 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:59:36 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:59:36 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 15:59:36 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth1
+2017/11/16 15:59:36 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:59:36 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:59:36 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 15:59:36 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::30ab:95ff:fe76:45e8/64 on r2-eth1
+2017/11/16 15:59:36 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.12.2/24 on r2-eth1
+2017/11/16 15:59:36 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 15:59:36 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth1
+2017/11/16 15:59:36 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth2
+2017/11/16 15:59:36 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:59:36 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:59:36 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 15:59:36 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::d6:f5ff:fee0:86c8/64 on r2-eth2
+2017/11/16 15:59:36 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.23.2/24 on r2-eth2
+2017/11/16 15:59:36 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 15:59:36 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth2
+2017/11/16 15:59:36 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:59:36 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 15:59:36 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:59:36 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/16 15:59:36 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:59:36 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 15:59:36 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:59:36 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/16 15:59:36 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:59:36 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 15:59:36 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:59:36 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:59:36 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth3
+2017/11/16 15:59:36 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 15:59:36 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::5050:f6ff:fecf:dc57/64 on r2-eth3
+2017/11/16 15:59:36 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:59:36 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:59:36 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:59:36 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:59:36 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:59:36 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 15:59:36 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.25.2/24 on r2-eth3
+2017/11/16 15:59:36 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 15:59:36 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth3
+2017/11/16 15:59:37 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth4
+2017/11/16 15:59:37 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 15:59:37 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::5868:a9ff:fe5e:a770/64 on r2-eth4
+2017/11/16 15:59:37 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.22.2/24 on r2-eth4
+2017/11/16 15:59:37 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 15:59:37 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth4
+2017/11/16 15:59:57 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 15:59:57 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.23.2/24 on r2-eth2
+2017/11/16 15:59:57 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 15:59:57 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.25.2/24 on r2-eth3
+2017/11/16 15:59:57 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 15:59:57 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.22.2/24 on r2-eth4
+2017/11/16 15:59:57 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 15:59:57 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/11/16 15:59:57 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:59:57 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/16 15:59:57 ZEBRA: client 16 says hello and bids fair to announce only ospf routes
+2017/11/16 15:59:57 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:59:57 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/16 15:59:57 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:59:57 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/16 15:59:57 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:59:57 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/16 15:59:57 ZEBRA: client 17 says hello and bids fair to announce only ospf6 routes
+2017/11/16 15:59:57 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:59:57 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/16 15:59:57 ZEBRA: zebra message comes from socket [17]
+2017/11/16 15:59:57 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/16 15:59:57 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:59:57 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:59:57 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:59:57 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:59:57 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:59:57 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 15:59:57 ZEBRA: zebra message comes from socket [16]
+2017/11/16 15:59:57 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 16:00:37 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:37 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:37 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:37 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:37 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:37 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:37 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:37 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:37 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:37 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:37 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:37 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:42 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:42 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:00:42 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:42 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:00:42 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:42 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:00:42 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:42 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:42 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:42 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:42 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:42 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:42 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:42 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:00:42 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:42 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:00:42 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:42 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:42 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:42 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:43 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:43 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:43 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:00:43 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 16:00:43 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:00:43 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 16:00:47 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:47 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:00:47 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:47 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:47 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:47 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:47 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:47 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:00:47 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:47 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:00:47 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:47 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:47 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:47 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:48 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:48 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:00:48 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:48 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:48 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:48 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:48 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:48 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 63
+2017/11/16 16:00:48 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:48 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:48 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:00:48 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:00:53 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:00:53 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 16:11:38 ZEBRA: Vty connection from 127.0.0.1
+2017/11/16 16:12:10 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth2
+2017/11/16 16:12:10 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 16:12:10 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::9ca7:82ff:fe3e:ae49/64 on r2-eth2
+2017/11/16 16:12:10 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:12:10 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:12:10 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:12:10 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/16 16:20:07 ZEBRA: Vty connection from 127.0.0.1
+2017/11/16 16:21:19 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:21:19 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:21:19 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:21:19 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:21:20 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth1
+2017/11/16 16:21:20 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:21:20 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:21:20 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 16:21:20 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::e03e:45ff:feb4:d9f3/64 on r2-eth1
+2017/11/16 16:21:20 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.12.2/24 on r2-eth1
+2017/11/16 16:21:20 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 16:21:20 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth1
+2017/11/16 16:21:20 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.23.2/24 on r2-eth2
+2017/11/16 16:21:20 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 16:21:20 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth2
+2017/11/16 16:21:20 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:21:20 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 16:21:20 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:21:20 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/16 16:21:20 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:21:20 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 16:21:20 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:21:20 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 16:21:20 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:21:20 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:21:20 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth3
+2017/11/16 16:21:20 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 16:21:20 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::5433:e5ff:feef:d9c5/64 on r2-eth3
+2017/11/16 16:21:20 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:21:20 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:21:20 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:21:20 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:21:20 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:21:20 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:21:20 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.25.2/24 on r2-eth3
+2017/11/16 16:21:20 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 16:21:20 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth3
+2017/11/16 16:21:21 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth4
+2017/11/16 16:21:21 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 16:21:21 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::5022:b7ff:fe1a:d3de/64 on r2-eth4
+2017/11/16 16:21:21 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.22.2/24 on r2-eth4
+2017/11/16 16:21:21 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 16:21:21 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth4
+2017/11/16 16:21:41 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 16:21:41 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.23.2/24 on r2-eth2
+2017/11/16 16:21:41 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 16:21:41 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.25.2/24 on r2-eth3
+2017/11/16 16:21:41 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 16:21:41 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.22.2/24 on r2-eth4
+2017/11/16 16:21:41 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 16:21:41 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/11/16 16:21:41 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:21:41 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/16 16:21:41 ZEBRA: client 16 says hello and bids fair to announce only ospf routes
+2017/11/16 16:21:41 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:21:41 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/16 16:21:41 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:21:41 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/16 16:21:41 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:21:41 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/16 16:21:41 ZEBRA: client 17 says hello and bids fair to announce only ospf6 routes
+2017/11/16 16:21:41 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:21:41 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/16 16:21:41 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:21:41 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/16 16:21:41 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:21:41 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 16:21:41 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:21:41 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 16:21:41 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:21:41 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 16:21:41 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:21:41 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 16:22:21 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:22:21 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:22:21 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:22:21 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:22:21 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:22:21 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:22:24 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:24 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:22:24 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:24 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:22:24 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:24 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:22:24 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:24 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:22:24 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:24 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:22:24 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:22:24 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 16:22:24 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:22:24 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 16:22:30 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:30 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:22:30 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:30 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:22:30 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:30 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:22:30 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:30 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:22:30 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:30 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:22:30 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:30 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:22:31 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:31 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:22:31 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:31 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:22:31 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:31 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:22:31 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:31 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:22:34 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:34 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:22:34 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:34 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:22:34 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:22:34 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/11/16 16:22:35 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:35 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:22:35 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:35 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 63
+2017/11/16 16:22:35 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:35 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:22:35 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:22:35 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:23:46 ZEBRA: Vty connection from 127.0.0.1
+2017/11/16 16:24:14 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth1
+2017/11/16 16:24:14 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 16:24:14 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::bc7b:42ff:fe1a:317c/64 on r2-eth1
+2017/11/16 16:24:14 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:24:14 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 63
+2017/11/16 16:24:14 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:24:14 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 16:24:14 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:24:14 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/16 16:24:14 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:24:14 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 16:24:14 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:24:14 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/11/16 16:24:51 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:24:51 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:24:51 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:24:51 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:24:51 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:24:51 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:31:48 ZEBRA: Vty connection from 127.0.0.1
+2017/11/16 16:40:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:40:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:40:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:40:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:40:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:40:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:40:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.12.2/24 on r2-eth1
+2017/11/16 16:40:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 16:40:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth1
+2017/11/16 16:40:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth2
+2017/11/16 16:40:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:40:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:40:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 16:40:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::7042:68ff:feb3:74e9/64 on r2-eth2
+2017/11/16 16:40:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.23.2/24 on r2-eth2
+2017/11/16 16:40:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 16:40:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth2
+2017/11/16 16:40:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:40:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:40:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:40:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:40:12 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:40:12 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/16 16:40:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth3
+2017/11/16 16:40:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 16:40:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::f8ca:28ff:fe5e:3380/64 on r2-eth3
+2017/11/16 16:40:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:40:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:40:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:40:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:40:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:40:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:40:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.25.2/24 on r2-eth3
+2017/11/16 16:40:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 16:40:12 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth3
+2017/11/16 16:40:13 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth4
+2017/11/16 16:40:13 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 16:40:13 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::5070:4aff:fe44:cdb8/64 on r2-eth4
+2017/11/16 16:40:13 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.22.2/24 on r2-eth4
+2017/11/16 16:40:13 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 16:40:13 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth4
+2017/11/16 16:41:22 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 16:41:22 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.23.2/24 on r2-eth2
+2017/11/16 16:41:22 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 16:41:22 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.25.2/24 on r2-eth3
+2017/11/16 16:41:22 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 16:41:22 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.22.2/24 on r2-eth4
+2017/11/16 16:41:22 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 16:41:22 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/11/16 16:41:22 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:41:22 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/16 16:41:22 ZEBRA: client 16 says hello and bids fair to announce only ospf routes
+2017/11/16 16:41:22 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:41:22 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/16 16:41:22 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:41:22 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/16 16:41:22 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:41:22 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/16 16:41:22 ZEBRA: client 17 says hello and bids fair to announce only ospf6 routes
+2017/11/16 16:41:22 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:41:22 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/16 16:41:22 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:41:22 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/16 16:41:22 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:41:22 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 16:41:22 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:41:22 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 16:41:22 ZEBRA: zebra message comes from socket [16]
+2017/11/16 16:41:22 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/16 16:42:07 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:07 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:42:07 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:07 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:42:07 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:07 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:42:07 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:07 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:42:07 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:07 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:42:07 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:07 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:42:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:42:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:42:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:42:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:42:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:42:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:42:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:42:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:42:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:42:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:42:12 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:42:16 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:42:16 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:42:16 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:42:16 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:42:18 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:18 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 16:42:18 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:18 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:42:21 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:42:21 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 63
+2017/11/16 16:42:21 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 16:42:21 ZEBRA: zebra message comes from socket [17]
+2017/11/16 16:42:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 17:09:03 ZEBRA: zebra message comes from socket [17]
+2017/11/16 17:09:03 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 17:09:04 ZEBRA: zebra message comes from socket [17]
+2017/11/16 17:09:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/16 17:09:04 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth1
+2017/11/16 17:09:04 ZEBRA: zebra message comes from socket [17]
+2017/11/16 17:09:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 17:09:04 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 17:09:04 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::b097:9aff:fe57:ada9/64 on r2-eth1
+2017/11/16 17:09:04 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.12.2/24 on r2-eth1
+2017/11/16 17:09:04 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:12::2/64 on r2-eth1
+2017/11/16 17:09:04 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth1
+2017/11/16 17:09:04 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth2
+2017/11/16 17:09:04 ZEBRA: zebra message comes from socket [17]
+2017/11/16 17:09:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 17:09:04 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 17:09:04 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::53:d0ff:fe9a:7bff/64 on r2-eth2
+2017/11/16 17:09:04 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.23.2/24 on r2-eth2
+2017/11/16 17:09:04 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:23::2/64 on r2-eth2
+2017/11/16 17:09:04 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth2
+2017/11/16 17:09:04 ZEBRA: zebra message comes from socket [16]
+2017/11/16 17:09:04 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/16 17:09:04 ZEBRA: zebra message comes from socket [17]
+2017/11/16 17:09:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 17:09:04 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth3
+2017/11/16 17:09:04 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 17:09:04 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::2ccc:ecff:fe37:28cc/64 on r2-eth3
+2017/11/16 17:09:04 ZEBRA: zebra message comes from socket [17]
+2017/11/16 17:09:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 17:09:04 ZEBRA: zebra message comes from socket [17]
+2017/11/16 17:09:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 17:09:04 ZEBRA: zebra message comes from socket [17]
+2017/11/16 17:09:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/16 17:09:04 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.25.2/24 on r2-eth3
+2017/11/16 17:09:04 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:25::2/64 on r2-eth3
+2017/11/16 17:09:04 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth3
+2017/11/16 17:09:05 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DOWN r2-eth4
+2017/11/16 17:09:05 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 17:09:05 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE fe80::1c55:5ff:fe02:41c8/64 on r2-eth4
+2017/11/16 17:09:05 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 10.10.22.2/24 on r2-eth4
+2017/11/16 17:09:05 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_DELETE 2001:1:0:22::2/64 on r2-eth4
+2017/11/16 17:09:05 ZEBRA: MESSAGE: ZEBRA_INTERFACE_DELETE r2-eth4
+2017/11/16 17:09:05 ZEBRA: zebra message comes from socket [16]
+2017/11/16 17:09:05 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/16 17:09:05 ZEBRA: zebra message comes from socket [16]
+2017/11/16 17:09:05 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/11/17 11:35:53 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:12::2/64 on r2-eth1
+2017/11/17 11:35:53 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.23.2/24 on r2-eth2
+2017/11/17 11:35:53 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:23::2/64 on r2-eth2
+2017/11/17 11:35:53 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.25.2/24 on r2-eth3
+2017/11/17 11:35:53 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:25::2/64 on r2-eth3
+2017/11/17 11:35:53 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 10.10.22.2/24 on r2-eth4
+2017/11/17 11:35:53 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD 2001:1:0:22::2/64 on r2-eth4
+2017/11/17 11:35:53 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/11/17 11:35:53 ZEBRA: zebra message comes from socket [16]
+2017/11/17 11:35:53 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/17 11:35:53 ZEBRA: client 16 says hello and bids fair to announce only ospf routes
+2017/11/17 11:35:53 ZEBRA: zebra message comes from socket [16]
+2017/11/17 11:35:53 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/17 11:35:53 ZEBRA: zebra message comes from socket [16]
+2017/11/17 11:35:53 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/17 11:35:53 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:35:53 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/11/17 11:35:53 ZEBRA: client 17 says hello and bids fair to announce only ospf6 routes
+2017/11/17 11:35:53 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:35:53 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/11/17 11:35:53 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:35:53 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/11/17 11:35:54 ZEBRA: zebra message comes from socket [16]
+2017/11/17 11:35:54 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/17 11:35:54 ZEBRA: zebra message comes from socket [16]
+2017/11/17 11:35:54 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/17 11:35:54 ZEBRA: zebra message comes from socket [16]
+2017/11/17 11:35:54 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/11/17 11:35:57 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:35:57 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/17 11:35:57 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:35:57 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/17 11:35:57 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:35:57 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/17 11:35:57 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:35:57 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/17 11:35:59 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:35:59 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/17 11:35:59 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:35:59 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/17 11:35:59 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:35:59 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/17 11:35:59 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:35:59 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/17 11:35:59 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:35:59 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/17 11:35:59 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:35:59 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/17 11:36:02 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:36:02 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/17 11:36:02 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:36:02 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/17 11:36:02 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:36:02 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/17 11:36:02 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:36:02 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/17 11:36:04 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:36:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/17 11:36:04 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:36:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/17 11:36:04 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:36:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/17 11:36:13 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:36:13 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/11/17 11:36:13 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:36:13 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/17 11:36:13 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:36:13 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 63
+2017/11/17 11:36:13 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:36:13 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/11/17 11:36:13 ZEBRA: zebra message comes from socket [17]
+2017/11/17 11:36:13 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
