@@ -1,2 +1,2 @@
 # TCP-IP
-TCP/IP course, EPFL, 2017
+Labs of TCP/IP course, EPFL, 2017
